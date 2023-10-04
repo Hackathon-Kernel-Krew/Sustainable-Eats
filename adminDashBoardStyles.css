@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'onset-bold';
+    src: url("resources/fonts/Onest-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'onset-regular';
+    src: url("resources/fonts/Onest-Regular.ttf");
+}
+
+:root {
+    --color1: #ffffff;
+    --color2: #151515;
+    --color3: #f8f8f8;
+    --color4: #76aa6f;
+    --color5: #76aa6fb6;
+    --color6: #5dec4a;
+    --profile-img-dencity: 60px;
+    --def-btn-dencity: 42px;
+}
+
+* {
+    font-family: 'onset-regular';
+    font-size: 14px;
+    color: var(--color2);
+}
+
+.main-logo {
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    object-fit: contain;
+}
+
+.def-link1 {
+    font-family: 'onset-bold';
+    color: var(--color2);
+    transition-duration: 0.3s;
+}
+
+.def-link1:hover {
+    color: var(--color4);
+    transition-duration: 0.3s;
+}
+
+.def-link1:hover .def-link-btn {
+    color: var(--color4);
+    transition-duration: 0.3s;
+}
+
+.def-side-menu-header {
+    font-family: 'onset-bold';
+    color: var(--color2);
+}
+
+.def-badge {
+    background-color: var(--color6);
+}
+
+.profile-img {
+    width: var(--profile-img-dencity);
+    height: var(--profile-img-dencity);
+    border-radius: calc(var(--profile-img-dencity) / 2);
+}
+
+.scroll-modify {
+    max-height: 550px;
+}
+
+.scroll-modify::-webkit-scrollbar {
+    width: 2px;
+    background: transparent;
+}
+
+.scroll-modify::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.def-btn-modify {
+    width: var(--def-btn-dencity);
+    height: var(--def-btn-dencity);
+    border-radius: calc(var(--def-btn-dencity) / 2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
