@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
 </head>
-
+ 
 <body>
 
     <div class="col-12">
@@ -19,7 +19,7 @@
 
             <div class="row cd">
                 <div class="card ps-3 pe-3 pt-4 pb-4 mt-2  d-flex align-items-center border border-0 " style="width: 18rem; background-color: lightgray; border-radius:30px;">
-                    <img src="images/product.png" class="card-img-top img">
+                    <img src="resources/images/product.png" class="card-img-top img">
                     <div class="card-body">
                         <h5 class="card-title">BANANAS &nbsp;&nbsp;&nbsp;<span class="badge bg-info">New</span></h5>
                         <p class="card-text ">Rs.100</p>
