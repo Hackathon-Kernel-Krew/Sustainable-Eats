@@ -1,18 +1,139 @@
-.img{
-    height: 160px;
-    width: 220px;
+.logo{
+    height: 46px;
+    width: 140px;
+    display: block;
 }
 
-.cd{
-    
-    margin-left: 50px;
+.caption{
+    margin-bottom: 50px;
+}
 
+.p{
+    font-size: 100px;
+    font-weight: bold;
 }
 
 .button{
+    margin-top: 20px;
+    height: 70px;
+    width: 200px;
+    font-weight: bold;
+}
+
+.t1{
+    font-family: "kalam",cursive;
+    color: #76aa6f;
+    letter-spacing: .05em;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    --bs-gutter-x: 30px;
+    --bs-gutter-y: 0;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    
+}
+
+.t2{
+    margin-bottom: 0px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: .05em;
+    color: #151515;
+}
+
+.offset-top-md-20{
+    margin-top: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    --bs-gutter-x: 30px;
+    --bs-gutter-y: 0;
+}
+
+/* .group-middle{
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.group-xl {
+    margin-bottom: -30px;
+    margin-left: -40px;
+    margin-top: 30px;
+} */
+
+.b{
     border-radius: 20px;
-    border-color: none;
     width: 40px;
     height: 40px;
+
+    
+}
+
+.s{
+    font-size: 14px;
+    font-weight: 600;
+    /* letter-spacing: .05em; */
+    text-transform: uppercase;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.f{
+    /* letter-spacing: .025em; */
+    font-style: italic;
+    color: #76aa6f;
+}
+.i{
+    width: 160px;
+    height: 55px;
+
+}
+
+.pg{
+    background-image: url("resources/parallax.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    /* background-color: yellowgreen; */
+    background-position: center;
+    object-fit: cover;
+    height: 420px;
+
+}
+
+.pb{
+    margin-top: 14px;
     color: white;
+}
+
+.l{
+    font-family: "Kalam", cursive;
+    color: #76aa6f;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 100px;
+    line-height: 1.5;
+}
+
+.n{
+    margin-top: 10px;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #151515;
+}
+
+.pr{
+    margin-top: 10px;
+    font-size: 14px;
+    
+
 }
